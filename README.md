@@ -7,4 +7,4 @@ This Dockerfile can be simply build and run in detached mode using:
 
 The jenkins server will run and can be browsed through port 8080 on host.
 To get into the shell use:
-> $ docker exec container_name /bin/bash
+> $ docker exec -it container_name /bin/bash
